@@ -1,3 +1,28 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// css 3 questions...
+
+// before => insert content BEFORE every tags content
+p::before { 
+    content: "Read this -";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+// after inset content AFTER every tags
+
+p::after { 
+    content: "Read this GAY AFTER -";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+// :checked => selects every checked input..
+// :diabled selects every disabled property
+// reset => what does a reset file doo.
+  // simply resets everything! makes sure all properties are set to none 
+  // standarising the fonts for different browsers so they dont apply there own properties.
+  // 
+
